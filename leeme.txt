@@ -1,0 +1,28 @@
+
+
+PASOS A SEGUIR:
+
+1) Hacer que este proyecto funcione correctamente con todas sus apis keys y se pueda realizar compra
+
+2) Instalar extension classdiagram-ts para generar uml automaticamente: en la raiz del proyecto click derecho y pulsar en opcion "show diagram" (ultima opcion) ) ( TEXTO OLD: Dibujar arquitectura del proyecto, desde la interfaz ui hasta las llamadas externas a las API (poner todos los pasos que siguen) )
+
+3) (SALTAR DIRECTAMENTE A ESTE PASO) 
+  - Crear nueva APP NEXTJS TS utilizando este proyecto como plantilla de referencia
+  - Copiar y pegar todas las carpetas de este proyecto de codigo para empezar con este template en el nuevo proyecto
+
+
+
+========================================================
+
+Error si se usa node v18 o superior https://github.com/nextauthjs/next-auth/issues/4575
+- Para que funcione el proyecto hay que hacer lo siguiente:
+1) Quitar la dependencia next-auth del package.json
+2) Ejecutar: yarn (npm install)
+3) Ejecutar:  yarn add next-auth --ignore-engines
+4) Ya debería funcionar, ejecutar: yarn dev (para chequear que todo funciona)
+
+=========================================================
+
+
+
+
