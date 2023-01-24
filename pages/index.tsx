@@ -8,6 +8,18 @@ import { useProducts } from '../hooks';
 
 import { FullScreenLoading } from '../components/ui';
 
+/**
+ * 1) zeppelin con nubes
+ * 2) oceano con bolas charls
+ * 3) Poner al canvas un height con el scroll que se quiera
+ * 
+ * 4) Sistema camiseta con decals con imagen que se pueden cargar desde el movil o ordenador y mover el decals para poner el logo en la camiseta, despues esa configuracion es guardada asociada a un producto.
+ * producto.model: THREE.Mesh
+ * https://codesandbox.io/s/ymb5d9 : Ejemplo decals con r3f (Crear canvas como aplicacion en carpeta a parte para hacerlo widget y app en un futuro)
+ * 
+ * Crear mis camisetas:
+ * https://partner.spreadshirt.es/designs
+ */
 
 const HomePage: NextPage = () => {
 
