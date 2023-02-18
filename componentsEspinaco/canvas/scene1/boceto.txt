@@ -1,0 +1,9 @@
+
+
+box en scene y fin
+
+
+
+- Page de app camiseta:
+
+Componente Camiseta, con los decals

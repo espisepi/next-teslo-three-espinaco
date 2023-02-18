@@ -1,5 +1,13 @@
 
 
+=================== IMPORTANTE ========================
+
+Para correr localmente, se necesita la base de datos:
+sudo docker-compose up -d
+
+=================== FIN IMPORTANTE ========================
+
+
 PASOS A SEGUIR:
 
 1) Hacer que este proyecto funcione correctamente con todas sus apis keys y se pueda realizar compra
@@ -22,6 +30,13 @@ Error si se usa node v18 o superior https://github.com/nextauthjs/next-auth/issu
 4) Ya debería funcionar, ejecutar: yarn dev (para chequear que todo funciona)
 
 =========================================================
+
+
+- Usar el "thinking in React" como referencia para hacer esquema de la app https://reactjs.org/docs/thinking-in-react.html
+-- Captura de pantalla de la pagina concreta (un esquema por pagina)
+-- Se diferencia cada componente en la pagina señalandolo con distintos colores
+-- Se escriben los componentes en un esquema aparte para indicar el flujo de datos, y si un componente engloba a otro se escribe tambien dentro de éste
+
 
 
 
